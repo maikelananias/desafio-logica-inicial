@@ -1,29 +1,30 @@
 let nome = "Hércules"
-let XP = 3000
+let XP = 10002
+let nivel = ""
 
 if(XP<1000){
-    let nivel = "Ferro"
+    nivel = "Ferro"
 }
 else if(XP>1000 && XP<=2000){
-    let nivel = "Bronze"
+    nivel = "Bronze"
 }
 else if(XP>2000 && XP<=5000){
-    let nivel = "Prata"
+    nivel = "Prata"
 }
 else if(XP>6000 && XP<=7000){
-    let nivel = "Ouro"
+    nivel = "Ouro"
 }
 else if(XP>7000 && XP<=8000){
-    let nivel = "Platina diamante"
+    nivel = "Platina diamante"
 }
 else if(XP>8000 && XP<=9000){
-    let nivel = "Ascendente"
+    nivel = "Ascendente"
 }
 else if(XP>9000 && XP<=10000){
-    let nivel = "imortal"
+    nivel = "imortal"
 }
 else{
-    let nivel = "Radiante"
+    nivel = "Radiante"
 }
 
 console.log("O herói de nome " + nome + " está no nível de " + nivel + ".") 
